@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+body{    
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;    
+}
+header{
+    height: 100px;    
+    padding: 0 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+header img{
+    width: 160px;
+    object-fit: contain;    
+}
+header ul{
+    display: flex;  
+    gap: 25px;
+    margin-right: 55vh;    
+}
+header ul .Çocuk{
+    color: rgb(105, 77, 12);    
+}
+header .othersections{
+    display: flex;
+    gap: 20px;
+}
+header .othersections a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;        
+}
+header a{    
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+header a:hover{        
+    color: white;
+    transition: .5s;
+}
+header .Çocuk:hover{
+    color: rgb(255, 179, 0);
+}
+.middlepart{
+    display: flex;
+    justify-content: center;
+}
+.video{
+    height: 78vh;
+    width: 125vh;    
+    background-color: darkslategray;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;    
+}
+.video:hover{
+    background-color: slategray;
+}
+.exppart{    
+    padding: 20px 50px;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.exppart h1{
+    color: white;
+    font-family: Verdana;    
+}
+.exppart h3{
+    font-family: Serif;
+    color: rgb(141, 141, 141);
+    font-size: 20px;
+}
+.exppart p{
+    font-family: Serif;
+    color: white;
+    font-size: 20px;
+}
+.seriessections{    
+    border-bottom: 2px solid rgb(105, 105, 105);    
+}
+.seriessections .sections{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    font-family: Verdana;
+    margin-bottom: 20px;
+}
+.seriessections a{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+/*
+.seriessections a:active{
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid yellow;
+}
+*/
+.episodes{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    gap: 15px;
+}
+.episodes .row{
+    display: flex;
+    gap: 15px;   
+    margin-top: 10px; 
+}
+.episodes .box{
+    height: 320px;
+    width: 280px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.episodes .box:hover{
+    background-color: rgb(147, 146, 146);
+}
+.recommented{
+    padding: 20px 100px;
+}
+.recommented .boxs{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.recommented .boxs img{
+    height: 350px;
+    object-fit: contain;    
+    border-radius: 5px;    
+}
+.underpart{
+    background-color: black;
+    height: 30vh;
+    margin-top: 20px;
+    padding: 30px 50px;
+}
+.underpart .sections{
+    border-bottom: 1px solid aliceblue;
+    display: flex;
+    gap: 25px;    
+}
+.underpart .sections a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 17px;
+    font-family: Verdana;
+    margin-bottom: 30px;
+}
+.underpart .media{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.socialmedia{
+    display: flex;
+    gap: 20px;
+}
+.socialmedia a{
+    color: white;
+    font-size: 30px;
+}
+.downloadmedia{
+    display: flex;
+    gap: 10px;
+}
+.downloadmedia .box{
+    height: 72px;
+    width: 205px;
+    background-color: black;
+    font-size: 27px;    
+}
+.downloadmedia i{
+    font-size: 32px;
+}
+.downloadmedia .bi-google-play{
+    color: rgb(0, 204, 255);
+}
+.downloadmedia .bi-bag-check-fill{
+    color: red;
+}
+.downloadmedia p{
+    font-size: 15px;
+    margin-left: 50px;
+}
+.downloadmedia a{
+    text-decoration: none;
+    color: white;
+}
